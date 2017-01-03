@@ -1,0 +1,63 @@
+/***********************************************
+ * Colors:
+ * #C0B283 pale gold
+ * #DCD0C0 silk
+ * #F4F4F4 paper
+ * #373737 charcoal
+ */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#App {
+	height: 100vh;
+	text-align: center;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background-image: url(../fb.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.vertical-center {
+  min-height: calc(100% - 50px);  /* Fallback for browsers do NOT support vh unit */
+  min-height: calc(100vh - 50px); /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-center {
+	padding: 0;
+	list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.align-text-left {
+	text-align: left;
+}
+
+.align-text-center {
+	text-align: center;
+}
+
+#contact_form input, textarea{
+	width: 100%;
+}

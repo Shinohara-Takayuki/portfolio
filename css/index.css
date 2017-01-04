@@ -32,7 +32,6 @@ body {
 .vertical-center {
   display: flex;
   align-items: center;
-  height: calc(100vh - 50px);
 }
 
 .horizontal-center {

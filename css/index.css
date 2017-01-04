@@ -23,7 +23,7 @@ body {
 
 .jumbotron {
 	background-image: url(../fb.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	color: white;

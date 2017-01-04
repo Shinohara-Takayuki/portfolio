@@ -22,7 +22,7 @@ body {
 }
 
 .jumbotron {
-	background-image: url(../fb.jpg);
+	background-image: url(../imgs/fb.jpg);
 	background-size: cover;
 	background-attachment: scroll;
 	background-position: center center;
